@@ -3,16 +3,11 @@ domain: ""
 baseurl: "/ed-blog" # the subpath of your site, e.g. /blog
 url: "https://juanfernandocastaneda.github.io/" # the base hostname & protocol for your site
 permalink: /:title/
-avatar: /murmur/assets/avatar.jpg
-about: /murmur/assets/about.jpg
-favicon: /murmur/assets/favicon.ico
+avatar: /ed-blog/assets/edb-logo.png
+favicon: /ed-blog/assets/fork.png
 basecss: 
 # Theme specific configuration
-title: songroger
-description: >
-  Hi there, My name is Luozhan.Song, usually I use "songroger" as my ID everywhere.
-  I was born and raised in Hunan China. 
-  I'm really fond of beautiful design, drawing etc.
+title: ed-blog
 
 # Contact and social media links
 twitter_username: songrogero
