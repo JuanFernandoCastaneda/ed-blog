@@ -1,13 +1,13 @@
 # Site configuration
 domain: ""
-baseurl: "/ed-blog" # the subpath of your site, e.g. /blog
+baseurl: "/edblog" # the subpath of your site, e.g. /blog
 url: "https://juanfernandocastaneda.github.io/" # the base hostname & protocol for your site
 permalink: /:title/
-avatar: /ed-blog/assets/edb-logo.png
-favicon: /ed-blog/assets/fork.png
+avatar: /edblog/assets/edb-logo.png
+favicon: /edblog/assets/fork.png
 basecss: 
 # Theme specific configuration
-title: ed-blog
+title: edblog
 
 # Contact and social media links
 twitter_username: songrogero

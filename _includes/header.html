@@ -1,24 +1,17 @@
-  <header class="header">
+<header class="header" style="font-size:20px">
 
-    {% if site.avatar %}
-      <div class="header__logo">
-        <a href="{{ site.baseurl }}/" class="header__link--logo">
-        <!-- <div class="spinner"></div> -->
-        <img src="{{ site.avatar }}"></a>
-      </div>
-    {% else %}
-      <h1 class="header__logo">
-        <a href="{{ site.baseurl }}/" class="header__link--logo">{{ site.title }}</a>
-      </h1>
-    {% endif %}
+  <div class="header__logo">
+    <a href="{{ site.baseurl }}/" class="header__link--logo">
+    <!-- <div class="spinner"></div> -->
+    <img src="{{ site.avatar }}" style="height:4em; width: 100%;"></a>
+  </div>
 
-    <nav class="header__nav" role="navigation">      
-      <a href="{{ site.baseurl }}/archive/" class="header__link">Archive</a>
-      <a href="http://twitter.com/{{ site.twitter_username }}" class="header__link" target="_blank">Twitter</a>
-      <!-- <a href="http://github.com/{{ site.github_username }}" class="header__link" target="_blank">Github</a> -->
-      <a href="http://facebook.com/{{ site.facebook_username }}" class="header__link" target="_blank">Facebook</a>
-      <a href="{{ site.baseurl }}/about/" class="header__link">About</a>
-    </nav>
-  </header>
+  <nav class="header__nav" role="navigation" style="display:flex; align-items:center;">
+    <a href="{{ site.baseurl }}/" class="header__link">Inicio</a>      
+    <a href="{{ site.baseurl }}/archive/" class="header__link">Archivo</a>
+    <!-- <a href="http://github.com/{{ site.github_username }}" class="header__link" target="_blank">Github</a> -->
+    <a href="{{ site.baseurl }}/about/" class="header__link">Info</a>
+  </nav>
+</header>
 
-  <main class="col">
+<main class="col">
