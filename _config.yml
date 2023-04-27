@@ -1,7 +1,7 @@
 # Site configuration
-domain: "http://songroger.win"
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "http://songroger.github.io/" # the base hostname & protocol for your site
+domain: ""
+baseurl: "/ed-blog" # the subpath of your site, e.g. /blog
+url: "https://juanfernandocastaneda.github.io/" # the base hostname & protocol for your site
 permalink: /:title/
 avatar: /murmur/assets/avatar.jpg
 about: /murmur/assets/about.jpg
